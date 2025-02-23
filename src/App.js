@@ -56,7 +56,7 @@ export default function App() {
           : el
       )
     );
-    setSelectedFriend(null)
+    setSelectedFriend(null);
   }
 
   return (
@@ -186,7 +186,7 @@ function FormSplitBill({ selectedFriend, onSplitBill }) {
       />
       <label> 🧍‍♂️Your expense</label>
       <input
-       type="number"
+        type="number"
         value={paidByUser}
         onChange={(e) =>
           setPaidByUser(
